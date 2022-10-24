@@ -1,0 +1,161 @@
+/*  
+    The two font families are:
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+*/
+
+
+/*footer {
+    font-family: 'PT Sans', sans-serif;
+}*/
+
+/* Making changes to the whole body*/
+
+body {
+    background-color: #eeeee8;
+}
+
+
+/* header section */
+
+.header {
+    background-color: #305f75;
+    display: flex;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    align-items: stretch;
+
+  }
+
+/* This has to do with the navigation links inside footer */
+
+.header .navlinks {
+    display: flex;
+    font-style: bold;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+    margin-left: 80%;
+    flex-direction: column;
+}
+
+.header ul li a {
+    color:aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    color:aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* hero section - to make the hero image stay when scroll */
+
+.hero {
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(img/Pig\ Photo.png);
+    background-attachment: fixed;
+
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+main h1 {
+    color: #306178;
+    font-family: 'PT Sans', sans-serif;
+    margin: 40px;
+    
+
+    
+}
+
+/* Make the navbar go to the bottom of the page */
+
+.navbar {
+    background-color: #305f75;
+    display: inline-flex;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: sticky;
+  }
+
+  /* Change color of all footer links when hover */
+
+.navbar a:hover {
+    color: gray
+}
+
+/* This has to do with the navigation links inside footer */
+
+.navbar .navlinks {
+    margin-left: -20px;
+    font-style: bold;
+    font-size: 14px;
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+
+}
+
+.navbar ul li a {
+    color:aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+  
+/* This has to do with the social media links inside footer */
+
+.navbar .social {
+    font-style: bold;
+    font-size: 18px;
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    position: sticky;
+}
+
+.navbar .social p {
+    color: aliceblue;
+    margin: 20px;
+    font-size: 12px;
+    width: 100%;
+}
+
+.navbar .social .fa {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color:rgb(6, 158, 67);
+    font-weight: bolder;
+    text-decoration: none;
+
+}
+
+/* This has to do with the 501c line inside footer */
+ 
+
+/*display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: ;*/
