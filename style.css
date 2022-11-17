@@ -11,287 +11,6 @@ body {
   background-color: #eceee8;
 }
 
-.who-we-are {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2px; 
-  margin: 2rem 0; 
-  background-color: #d4d4d1;
-}
-
-.who-we-are .who-we-are-words {
-   margin: 0px 30px 10px 30px;
-}
-
-.who-we-are .who-we-are-header {
-  position: relative;
-  top: 1em;
-  right: .75em;
-  width: 6em;
-  text-align: center;
-  background-color: #0f1423;
-  color: #f2f2f2;
-}
-
-.who-we-are .who-we-are-paragraph {
-  font-family: 'Playfair Display', serif;
-  line-height: 1.75;
-  text-align: center;
-  padding: 1.5em;
-  font-weight: 900;
-  background-color: hsl(170, 25%, 95%);
-  color: #0f1423;
-}
-
-.who-we-are .willis-and-maverick-one {
-  height: 15em;
-  max-width: 80%;
-  background: #0f1423;
-  padding: 30px 0px;
-  background-color: #0f1423;
-}
-
-
-.button .donate:hover {
-  color: #dadecf;
-  background-color: #0f1423;
-}
- .button a {
-    text-decoration: none;
-    color: #0f1423;
-    letter-spacing: 2px;
-    font-size: 20px;
- }
-
- .button {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
- }
-
-.button .donate {
-  display: flex;
-  border: 2px solid black;
-  background-color: #dadecf;
-  padding: 20px;
-  align-items: center;
-  justify-content: center;
-  margin: 20px;
-}
-
-.how-donations-help {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.how-donations-help .how-donations-help-header {
-  color: #0f1423;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  margin-bottom: .5rem;
-  margin-top: 1em;
-}
-
-.how-donations-help .how-donations-help-list-container {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-}
-.how-donations-help-housing-container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-top: 2em;
-}
-.how-donations-help-animal-feed-container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-top: 2em;
-
-}
-.how-donations-help-medical-container {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-top: 2em;
-
-}
-.how-donations-help .how-donations-help-list-container img {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 10em;
-height: 10em;
-  }
-
-.how-donations-help-housing-paragraph {
-  display: flex;
-  text-align: center;
-  max-width: 60%;
-  margin-top: 0px;
-  }
-
-  .how-donations-help-animal-feed-paragraph {
-    display: flex;
-    text-align: center;
-    max-width: 60%;
-    margin-top: 0px;
-    }
-
-  .how-donations-help-medical-paragraph {
-  display: flex;
-  text-align: center;
-  max-width: 60%;
-  margin-top: 0px;
-  }
-
-  .mission {
-  display: flex;
-  flex-direction: column;
-  width: 60rem;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  background-color: #d4d4d1;
-  background-blend-mode: lighten;
-  padding-top: 30px;
-  margin-bottom: 3rem;
-}
-
-h2 {
-  font-family: 'PT Sans', sans-serif;
-  font-size: 2rem;
-  margin: 0;
-  padding: 0;
-  }
-
-.mission p {
-font-family: 'Playfair Display', serif;
-line-height: 1.75;
-font-size: 1.25rem;
-text-align: center;
-color: #0f1423;
-font-weight: bold;
-width: 80%;
-}
-
-.new-farm .new-farm-header {
-
-}
-/* Meet the animals page*/
-
-.the-animals-on-farm {
-display: flex;
-text-align: center;
-width: 100%;
-}
-
-.the-animals-on-farm ul {
-  width: 100%;
-  display: flex;
-  flex-wrap: no-wrap;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-  text-decoration: none;
-  list-style: none;
-  font-family: 'PT Sans', sans-serif;
-  font-size: 40px;
-  flex-direction: column;
-}
-
-  .the-animals-on-farm img {
-    height: 15rem;
-    width: auto;
-    border-radius: 48%;
-    margin: 20px;
-    padding: 5px;
-    background-color: #0f1423;  }
-
-  .the-animals-on-farm ul li {
-    display: flex;
-    flex-direction: column;
-     }
-
-    
- .the-animals-on-farm .list-of-animals ul li {
-    position: relative;
-    height: 15rem;
-    width: auto;
-  }
-
-  .animal-description {
-    display: flex;
-    width: 60rem;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 2rem;
-    background-color: #d4d4d1;
-    background-blend-mode: lighten;
-  }
-
-  .animal-description p {
-  font-family: 'Playfair Display', serif;
-  line-height: 1.75;
-  font-size: 1.25rem;
-  text-align: center;
-  color: #0f1423;
-  font-weight: bold;
-  width: 80%;
-  }
-
-/*
-  .loretta-img {
-    display: block;
-     }
-
-  .loretta-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background:rgb(0, 0, 0, 0.6);
-    color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity .25s;
-  }
-
-  .loretta-overlay > * {
-    transform: translateY(20px);
-    transition: transform .25s;
-  }
-  .loretta-overlay:hover {
-    opacity: 1;
-  }
-
-  .loretta-overlay:hover > * {
-    transform: translateY(0);
-  }
-
-  .loretta-title {
-    font-size: 2em;
-    font-weight: bold;
-  }
-
-  .loretta-description {
-    font-size: 1.25em;
-    margin-top: .25em;
-  }
-*/
-
 /* This has to do with the navigation links inside the header on the Home page*/
 
 .topnav {
@@ -390,14 +109,14 @@ header .logo h1 {
   line-height: 1;
   font-family: 'PT Sans', sans-serif;
 }
-  
+
 .hero-faqs {
   width: 100%;
   height: 300px;
   background-position: center -300px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(img/FAQs.jpg);
+  background-image: url(img/Maverick\ Baby.JPG);
   background-attachment: fixed;
   color: aliceblue;
   text-shadow: 6px 6px 6px #0f1423;
@@ -407,13 +126,14 @@ header .logo h1 {
   line-height: 1;
   font-family: 'PT Sans', sans-serif;
 }
+
 .hero-donate {
   width: 100%;
   height: 300px;
   background-position: center -300px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(img/Donate\ Photo.png);
+  background-image: url(img/Maverick\ Baby.JPG);
   background-attachment: fixed;
   color: aliceblue;
   text-shadow: 6px 6px 6px #0f1423;
@@ -423,6 +143,7 @@ header .logo h1 {
   line-height: 1;
   font-family: 'PT Sans', sans-serif;
 }
+
 .hero-contact {
   width: 100%;
   height: 300px;
@@ -439,6 +160,292 @@ header .logo h1 {
   line-height: 1;
   font-family: 'PT Sans', sans-serif;
 }
+
+.button .donate:hover {
+  color: #dadecf;
+  background-color: #0f1423;
+}
+
+.button a {
+  text-decoration: none;
+  color: #0f1423;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.button .donate {
+  display: flex;
+  border: 2px solid black;
+  background-color: #dadecf;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Everything below is on Home page */
+
+.mission {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #d4d4d1;
+  background-blend-mode: lighten;
+  padding-top: 30px;
+  margin-bottom: 3rem;
+}
+
+h2 {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.mission p {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.75;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #0f1423;
+  font-weight: bold;
+  width: 80%;
+}
+
+.how-donations-help {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.how-donations-help .how-donations-help-header {
+  color: #0f1423;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: .5rem;
+  margin-top: 1em;
+}
+
+.how-donations-help .how-donations-help-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.how-donations-help-housing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.how-donations-help-animal-feed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+
+}
+
+.how-donations-help-medical-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2em;
+
+}
+
+.how-donations-help .how-donations-help-list-container img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10em;
+  height: 10em;
+}
+
+.how-donations-help-housing-paragraph {
+  display: flex;
+  text-align: center;
+  max-width: 60%;
+  margin-top: 0px;
+}
+
+.how-donations-help-animal-feed-paragraph {
+  display: flex;
+  text-align: center;
+  max-width: 60%;
+  margin-top: 0px;
+}
+
+.how-donations-help-medical-paragraph {
+  display: flex;
+  text-align: center;
+  max-width: 60%;
+  margin-top: 0px;
+}
+.who-we-are {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+  margin: 2rem 0;
+  background-color: #d4d4d1;
+}
+
+.who-we-are .who-we-are-words {
+  margin: 0px 30px 10px 30px;
+}
+
+.who-we-are .who-we-are-header {
+  position: relative;
+  top: 1em;
+  right: .75em;
+  width: 6em;
+  text-align: center;
+  background-color: #0f1423;
+  color: #f2f2f2;
+}
+
+.who-we-are .who-we-are-paragraph {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.75;
+  text-align: center;
+  padding: 1.5em;
+  font-weight: 900;
+  background-color: #eceee8;
+  color: #0f1423;
+}
+
+.who-we-are .willis-and-maverick-one {
+  height: 15em;
+  max-width: 80%;
+  background: #0f1423;
+  padding: 30px 0px;
+  margin-bottom: 30px;
+  background-color: #0f1423;
+}
+
+/* Meet the animals page*/
+
+.the-animals-on-farm {
+  display: flex;
+  text-align: center;
+  width: 100%;
+}
+
+.the-animals-on-farm ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: no-wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 40px;
+  flex-direction: column;
+}
+
+.the-animals-on-farm img {
+  height: 15rem;
+  width: auto;
+  border-radius: 48%;
+  margin: 20px;
+  padding: 5px;
+  background-color: #0f1423;
+}
+
+.the-animals-on-farm ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+.the-animals-on-farm .list-of-animals ul li {
+  position: relative;
+  height: 15rem;
+  width: auto;
+}
+
+.animal-description {
+  display: flex;
+  width: 60rem;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+  background-color: #d4d4d1;
+  background-blend-mode: lighten;
+}
+
+.animal-description p {
+  font-family: 'Playfair Display', serif;
+  line-height: 1.75;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #0f1423;
+  font-weight: bold;
+  width: 80%;
+}
+
+/*
+  .loretta-img {
+    display: block;
+     }
+
+  .loretta-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(0, 0, 0, 0.6);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .25s;
+  }
+
+  .loretta-overlay > * {
+    transform: translateY(20px);
+    transition: transform .25s;
+  }
+  .loretta-overlay:hover {
+    opacity: 1;
+  }
+
+  .loretta-overlay:hover > * {
+    transform: translateY(0);
+  }
+
+  .loretta-title {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .loretta-description {
+    font-size: 1.25em;
+    margin-top: .25em;
+  }
+*/
+
 
 
 /* Make the navbar go to the bottom of the page */
@@ -475,6 +482,7 @@ header .logo h1 {
   margin-left: none;
   padding: 0;
 }
+
 .navbar ul li {
   text-align: center;
 }
@@ -524,76 +532,86 @@ header .logo h1 {
     right: 2rem;
     font-size: 40px;
   }
-    .who-we-are {
-      flex-direction: row;
-      max-width: 100%;
-    }
-    .the-animals-on-farm ul {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-       column-gap: 4rem;
-       row-gap: 70px;
-      
-    }
-    .who-we-are .willis-and-maverick-one {
-      margin-top: 90px;
-      margin-right: 20px;
-      margin-left: 5px;
-    }
-    .who-we-are .who-we-are-words {
-      margin-left: 40px;
-      margin-right: 15px;
-    }
-  
+
+  .who-we-are {
+    flex-direction: row;
+    max-width: 100%;
+  }
+
+  .the-animals-on-farm ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 4rem;
+    row-gap: 70px;
+
+  }
+
+  .who-we-are .willis-and-maverick-one {
+    margin-top: 90px;
+    margin-right: 20px;
+    margin-left: 5px;
+  }
+
+  .who-we-are .who-we-are-words {
+    margin-left: 40px;
+    margin-right: 15px;
+  }
+
   .how-donations-help .how-donations-help-list-container {
     flex-direction: row;
     width: 100%;
     margin-top: 1.75rem;
   }
+
   .how-donations-help-housing-paragraph {
     max-width: 100%;
     margin: 1rem;
-    }
+  }
+
   .how-donations-help-animal-feed-paragraph {
-      max-width: 100%;
-      margin: 1rem;
-      }
+    max-width: 100%;
+    margin: 1rem;
+  }
+
   .how-donations-help-medical-paragraph {
-        max-width: 100%;
-        margin: 1rem;
+    max-width: 100%;
+    margin: 1rem;
   }
-        
-  }
+
+}
+
 @media screen and (min-width: 1100px) {
   .hero-main {
-  background-position: center -350px;
-  height: 300px;
+    background-position: center -350px;
+    height: 300px;
   }
 
   .who-we-are {
     flex-direction: row-reverse;
     max-width: 100%;
   }
+
   .the-animals-on-farm ul {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     column-gap: 15px;
-         }
-.the-animals-on-farm img {
-  width: auto;
-}
-.who-we-are .willis-and-maverick-one {
-  margin-bottom: 1em;;
-  margin-left: 40px;
-}
-.who-we-are .who-we-are-words {
-  margin-left: 50px;
-}
-.how-donations-help .how-donations-help-list-container {
- 
-}
+  }
+
+  .the-animals-on-farm img {
+    width: auto;
+  }
+
+  .who-we-are .willis-and-maverick-one {
+    margin-bottom: 4em;
+    ;
+    margin-left: 40px;
+  }
+
+  .who-we-are .who-we-are-words {
+    margin-left: 50px;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -622,54 +640,5 @@ header .logo h1 {
     text-align: left;
   }
 }
-
-
-/* This has to do with the 501c line inside footer */
-
-
-/*display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: ;*/
-
-
-/*
-/* Meet the Animals Banner
-
-.meet-the-animals {
-  position: relative;
-}
-
-.meet-the-animals .text-block {
-  position: absolute;
-  color: aliceblue;
-  bottom: .5rem;
-  right: .5rem;
-  font-size: 150%;
-  font-family: 'PT Sans', sans-serif;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
